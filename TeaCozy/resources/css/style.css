@@ -1,0 +1,130 @@
+body {
+  background-color: black;
+  color: seashell;
+  font-size: 22px;
+  opacity: 0.9;
+  font-family: Helvetica;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+h2, h4 {
+  padding: 10px;
+  margin: 0px;
+  display: block;
+}
+
+a {
+  color: inherit;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  height: 69px;
+  background-color: black;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+  z-index: 10;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+  margin-top: 8px;
+}
+
+header nav span {
+  text-decoration: underline;
+  padding: 10px 20px
+}
+
+header nav {
+
+}
+
+.main_image_text {
+  height: 700px;
+  width: 1200px;
+  padding-top: 100px;
+  text-align: center;
+  z-index: 5;
+  align-items: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  margin: auto;
+}
+
+.main_image_text h2, h4 {
+  margin: 0px;
+  background-color: black;
+  padding: 10px;
+}
+
+.main_image_text h2 {
+  margin-top: 250px;
+}
+
+#tea_of_the_month {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 600px;
+}
+
+#tea_of_the_month img {
+  height: 200px;
+  width: 300px;
+  display: block;
+  margin: 10px;
+}
+
+#totm_header {
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+  text-align: center;
+}
+
+#tea_of_the_month h2, h4, span {
+  text-align: center;
+}
+
+.ave_tea, .bizarre_tea, .berry_blitz, .rum_tea, .seasonal_donuts {
+  text-align: center;
+}
+
+#locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  display: block;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.address {
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+  margin-top: 15px;
+  flex-direction: row;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.address_cont {
+    display: flex;
+    margin-left: auto;
+    justify-content: center;
+}
+
+.contact_info {
+  text-align: center;
+}
+
+.copyright {
+  text-align: left;
+}
